@@ -1,0 +1,50 @@
+{
+  "patients": [
+    {
+      "patient_id": "P-1001",
+      "name": "Alex Kim",
+      "dob": "1989-07-12",
+      "member_id": "HMO-77821"
+    },
+    {
+      "patient_id": "P-1002",
+      "name": "Jordan Lee",
+      "dob": "1993-02-04",
+      "member_id": "PPO-99214"
+    }
+  ],
+  "appointments": [
+    {
+      "appt_id": "A-5001",
+      "patient_id": "P-1001",
+      "date": "2025-09-10",
+      "time": "10:30",
+      "department": "Primary Care",
+      "status": "Scheduled"
+    },
+    {
+      "appt_id": "A-5002",
+      "patient_id": "P-1002",
+      "date": "2025-08-30",
+      "time": "14:00",
+      "department": "Dermatology",
+      "status": "Pending Confirmation"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "R-32145",
+      "patient_id": "P-1001",
+      "item": "Sleep Study Referral",
+      "status": "Submitted",
+      "last_update": "2025-08-15"
+    },
+    {
+      "order_id": "R-32146",
+      "patient_id": "P-1002",
+      "item": "MRI Referral",
+      "status": "Processing",
+      "last_update": "2025-08-20"
+    }
+  ]
+}
